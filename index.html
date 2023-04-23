@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PORTFÓLIO DA LUANNA">
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/media.css">
+  <title>PORTFÓLIO - LUANNA</title>
+  <link rel="icon" href="img/Logo_cabeçalho.png">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="js/menu.js"></script>
+</head>
+
+<!-- SERIA UM MENU -->
+<body id="irhome">
+  <header>
+    <a href="#" class="btn-abrir" onclick="abrirMenu()"><ion-icon name="filter-circle-outline"></ion-icon>Menu</a>
+  </header>
+  <nav id="menu" class="links">
+    <a class="menu-links" href="#irhome"><ion-icon name="home-outline"></ion-icon>Home</a>
+    <a class="menu-links" href="https://meaboutlu.netlify.app/" target="_blank"><ion-icon  name="person-outline"></ion-icon>Sobre Mim</a>
+    <a class="menu-links" href="#habilidades"><ion-icon name="person-outline"></ion-icon>Habilidades</a>
+    <a class="menu-links" href="#projetos"><ion-icon name="terminal-outline"></ion-icon>Projetos</a>
+    <a class="menu-links" href="#perguntas"><ion-icon name="chatbubble-outline"></ion-icon>Mensagem</a>
+    <a class="menu-links" href="https://linktreeluanna.netlify.app/" target="_blank"><ion-icon name="phone-portrait-outline"></ion-icon>Redes Sociais</a>
+    <a class="menu-links" href="#" onclick="fecharMenu()"><ion-icon name="close-circle-outline"></ion-icon>Fechar</a>
+  </nav>
+  
+
+<!-- CONTEÚDO PRINCIPAL ONDE TEM AS REDES SOCIAIS, E UMA FOTO MINHA -->
+  <main id="home" class="conteudo">
+    <section class="conteudo-principal">
+      <img class="conteudo-principal-imagem"src="img/background.png" alt="Imagem do rosto da Luanna">
+      <div class="conteudo-principal-escrito">
+        <div id="redessociais" class="titulos" >
+          <h1 class="conteudo-principal-escrito-titulo">Olá, sou a Luanna</h1>
+          <h2 class="conteudo-principal-escrito-subtitulo">Desenvolvedora Front-end</h2>
+        </div>
+            <div class="conteudo-quinto1">
+              <nav class="conteudo-sociais">
+                <a href="https://github.com/Luannax" target="_blank"><img class="social-git1" src="img/github.png" alt="GitHub"></a>
+                <a href="https://www.instagram.com/luannabahia_/?hl=pt-br" target="_blank"><img class="social-instagram1" src="img/instagram.webp" alt="Instagram" ></a>
+                <a href="https://www.linkedin.com/in/luannabahia" target="_blank"><img class="social-linkedin1" src="img/linkedin-removebg-preview.png" alt="Linkedin" ></a>
+              </nav>
+            </div>
+    </div>
+    </section>
+
+    <!-- UM POUCO SOBRE COMOCEI A ME INTERESSAR SOBRE ESSA ÁREA -->
+    <section class="conteudo-secundario">
+      <h3 id="sobremim" class="titulo-sobremim">SOBRE MIM</h3>
+      <div class="conteudo2">
+        <p class="paragrafo-sobremim">Me chamo Luanna, tenho 20 anos atualmente estou cursando Ciência da Computação na faculdade da Unemat (Universidade do Mato Grosso).
+        Estou em busca do meu primeiro estágio em Desenvolvimento Web. Quero seguir a minha vida profissionalmente como Desenvolvedora Front-End. 
+        No começo pensava em entrar no mundo da engenharia mecânica, fiz um semestre e vi que não era pra mim, logo sai e foquei no que eu mais gostava de fazer.
+        Foi ai que eu encontrei o meu caminho, a tecnologia. Nasci no mundo da tecnologia, já gostava de jogar e saber como que era possível programar e sair um jogo. 
+        Procurei o que a programação abrange e encontrei o que eu me identifiquei, e amo o que eu faço.
+        Além da Graduação em Ciências da Computação, me dedico a outros cursos EAD para a melhoria do meu aprendizado, como um curso de programação e inglês.
+        </p>
+      </div>
+    </section>
+
+    <!-- TODAS AS LINGUAGENS ESTUDADAS -->
+    <section>
+      <h3 class="terceiro-conteudo" id="habilidades">HABILIDADES</h3>
+      <div class="imagens-terceiro" >
+      <a href="https://www.devmedia.com.br/certificado/tecnologia/html/luanna-bahia-da-silva" target="_blank"><img class="img-teceiro-html" src="img/html.png" alt="HTML"></a> 
+      <a href="https://www.devmedia.com.br/certificado/tecnologia/css/luanna-bahia-da-silva" target="_blank"><img class="img-teceiro-css" src="img/css.jpg" alt="CSS"></a>
+      <a href="https://www.devmedia.com.br/certificado/tecnologia/javascript/luanna-bahia-da-silva" target="_blank"><img class="img-teceiro-javascript" src="img/javascript.webp" alt="JAVASCRIPT"></a>
+      <a href="https://www.devmedia.com.br/certificado/tecnologia/python/luanna-bahia-da-silva" target="_blank"><img class="img-teceiro-python" src="img/python.png" alt="PYTHON"></a>
+      </div>
+    </section>
+
+    <!-- TODOS OS PROJETOS DESENVOLVIDOS COM AS LINGUAGENS -->
+    <section class="conteudo-projetos">
+      <div class="projeto-paragrafo">
+        <h3 class="titulo-projetos1" id="projetos">PROJETOS</h3>
+        <p class="paragrafo-projetos">Os projetos Senhor Lei, CMLife, Padaria e Paraty Pontos Turísticos foram desenvolvido junto com o curso da <a class="link-devmedia" href="https://www.instagram.com/devmedia.com.br/?hl=pt" target="_blank">DevMedia</a>, somente nas linguagens HTML e CSS. Já os demais foram desenvolvidos através de cursos e vídeos visto através do <a class="link-youtube" href="https://www.youtube.com/" target="_blank">YouTube</a>.</p>
+      </div>
+        <br>
+      <div class="box-projetos">
+        <figure class="box-especialidade">
+          <img src="img/advogacia.jpg" alt="Imagem de um advogado" title="Imagem de um site de Advogacia">
+          <figcaption><a class="box-link" href="https://graceful-cascaron-32738a.netlify.app/" target="_blank">Senhor Lei - Advogacia</a></figcaption>
+        </figure>
+
+        <figure class="box-especialidade">
+          <img src="img/geriatra.png" alt="Imagem de uma clinica" title="Imagem de um site de agendamento de consulta">
+          <figcaption><a a class="box-link" href="https://teal-cobbler-9a23e7.netlify.app/" target="_blank">CMLife</a></figcaption>
+        </figure>
+
+        <figure class="box-especialidade">
+          <img class="img-1" src="img/padaria.jpg" alt="Site de uma padaria" title="Site de uma padaria">
+          <figcaption><a a class="box-link" href="https://quiet-treacle-98e64e.netlify.app/" target="_blank">Padaria</a></figcaption>
+        </figure>
+
+        <figure class="box-especialidade">
+          <img src="img/turismo.jpg" alt="Site de turismo" title="Site de turismo">
+          <figcaption><a a class="box-link" href="https://chimerical-lollipop-809eb8.netlify.app/" target="_blank">Paraty Pontos turísticos</a></figcaption>
+        </figure>
+
+        <figure class="box-especialidade">
+          <img src="img/projeto relogio virtual.png" alt="Imagem de um relógio virtual" title="Imagem de um relógio virtual">
+          <figcaption><a class="box-link" href="https://luannax.github.io/Rel-gio-Virtual/" target="_blank">Relógio Virtual</a></figcaption>
+        </figure>
+
+        <figure class="box-especialidade">
+          <img src="img/to list.png" alt="Imagem de uma site de lista de tarefas" title="Imagem de uma site de lista de tarefas">
+          <figcaption><a class="box-link" href="https://luannax.github.io/to-list/" target="_blank">To list</a></figcaption>
+        </figure>
+
+        <figure class="box-especialidade">
+          <img src="img/Calculadora de imc.png" alt="Imagem de uma calculadora de imc" title="Imagem de uma calculadora de imc">
+          <figcaption><a class="box-link" href="https://luannax.github.io/Calculadora-Imc/" target="_blank">Calculadora de IMC</a></figcaption>
+        </figure>
+
+        <figure class="box-especialidade">
+          <img src="img/projeto portfolio.png" alt="Imagem do portfólio pessoal" title="Imagem do portfólio pessoal">
+          <figcaption><a class="box-link" href="https://luannax.github.io/portfolio1/" target="_blank">Portfólio Pessoal</a></figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="conteudo-quarto">
+      <a class="botao-quarto" href="curriculum/Curriculum Luanna Bahia.pdf" download="curriculum.pdf">BAIXAR CV</a>
+    </section>
+    <br><br><br><br>
+    
+
+    <!-- FORMULÁRIO PARA PERGUNTAS -->
+    
+    <section id="perguntas" class="conteudo-secundario">
+      <form target="_blank" id="formulario-pergunta" action="https://formsubmit.co/luannabahia1@gmail.com" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="pergunta">Mensagem:</label>
+        <textarea id="pergunta" name="pergunta" rows="5" required></textarea>
+      
+        <button type="submit">Enviar</button>
+      </form> 
+    </section>
+  </main>
+
+
+
+  <!-- RODAPÉ DO SITE, COM AS REDES SOCIAIS -->
+  <footer class="rodape">
+    <p>© 2022 Luanna Bahia - Todos os direitos reservados</p>
+    <div class="conteudo-quinto">
+      <nav>
+        <a href="https://github.com/Luannax" target="_blank"><img class="social-git" src="img/github.png" alt="GitHub" title="GitHub"></a>
+        <a href="https://www.instagram.com/luannabahia_/?hl=pt-br" target="_blank"><img class="social-instagram" src="img/instagram.webp" alt="Instagram" title="Instagram"></a>
+        <a href="https://www.linkedin.com/in/luannabahia" target="_blank"><img class="social-linkedin" src="img/linkedin-removebg-preview.png" alt="Linkedin" title="Linkedin"></a>
+      </nav>
+  </div>
+  </footer>
+</body>
+</html>
