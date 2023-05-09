@@ -71,11 +71,11 @@ main {
   height: 350px;
 }
 .conteudo-principal {
-  padding-top: 100px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  padding: 150px;
 }
 .conteudo-principal-escrito-titulo {
   font-family: monospace;
