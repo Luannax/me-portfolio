@@ -68,8 +68,6 @@ main {
 
 /*CONTEUDO CONTENDO FOTO*/
 .conteudo-principal-imagem {
-  margin-top: 20px;
-  margin-bottom: 20px;
   width: 100px;
   height: 100px;
   border-radius: 50%;
