@@ -67,30 +67,39 @@ main {
 }
 
 /*CONTEUDO CONTENDO FOTO*/
-.conteudo-principal-imagem {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-}
 .conteudo-principal {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 150px;
+  padding: 250px 0; 
 }
+
+.conteudo-principal-imagem {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.conteudo-principal-escrito {
+  margin-left: 40px; 
+}
+
 .conteudo-principal-escrito-titulo {
   font-family: monospace;
   font-weight: 400;
   font-size: 42px;
   color: #ffffff;
+  margin-bottom: 20px; 
 }
+
 .conteudo-principal-escrito-subtitulo {
   font-family: monospace;
   font-weight: 400;
   font-size: 22px;
   color: #ffffff;
 }
+
 
 
 /*REDES SOCIAIS DO COMEÇO DO SITE*/
