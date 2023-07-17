@@ -2,346 +2,364 @@
     @media screen and (max-width: 768px) {
         @media screen and (max-width: 1024px) {
             @media screen and (max-width: 1200px) {
-              * {
-                box-sizing: border-box;
-                padding: 0;
-                margin: 0;
-              }
+                
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
-              body {
-                background: black;
-              }
+body {
+  background: black;
+}
 
-              a {
-                text-decoration: none;
-                color: white;
-              }
+a {
+  text-decoration: none;
+  color: white;
+}
 
-              /*HOME*/
-              .btn-abrir {
-                color: white;
-                font-size: 20px;
-                display: block;
-                padding: 20px 10px 20px 32px;
-                font-family: monospace;
-                position: fixed;
-              }
+/*HOME*/
+.btn-abrir {
+  color: white;
+  font-size: 20px;
+  display: block;
+  padding: 20px 10px 20px 32px;
+  font-family: monospace;
+  position: fixed;
+}
 
-              .logo {
-                width: 60px;
-                padding-right: 20px;
-              }
+.logo {
+  width: 60px;
+  padding-right: 20px;
+}
 
-              ion-icon {
-                padding-right: 8px;
-              }
+ion-icon {
+  padding-right: 8px;
+}
 
-              .links {
-                height: 450px;
-                width: 0px;
-                background-color: rgba(43, 43, 43, 0.26);
-                position: fixed;
-                top: 48px;
-                left: 20px;
-                z-index: 1;
-                overflow: hidden;
-                transition: width 0.7s;
-                font-family: monospace;
-                border-bottom-right-radius: 40px;
-                border-bottom-left-radius: 40px;
-                border-top-right-radius: 40px;
-              }
+.links {
+  height: 450px;
+  width: 0px;
+  background-color: rgba(43, 43, 43, 0.26);
+  position: fixed;
+  top: 48px;
+  left: 20px;
+  z-index: 1;
+  overflow: hidden;
+  transition: width 0.7s;
+  font-family: monospace;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
 
-              .links a {
-                color: white;
-                font-size: 20px;
-                display: block;
-                padding: 20px 10px 20px 32px;
-              }
+.links a {
+  color: white;
+  font-size: 20px;
+  display: block;
+  padding: 20px 10px 20px 32px;
+}
 
-              .links a:hover {
-                color: rgb(255, 255, 255);
-                background-color: #a000e5;
-              }
+.links a:hover {
+  color: rgb(255, 255, 255);
+  background-color: #a000e5;
+}
 
-              main {
-                padding: 50px;
-                transition: margin-left 0.7s;
-              }
+main {
+  padding: 50px;
+  transition: margin-left 0.7s;
+}
 
-              /*CONTEUDO CONTENDO FOTO*/
-              .conteudo-principal-imagem {
-                width: 300px;
-                height: 300px;
-                border-radius: 50%;
-              }
-              .conteudo-principal {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-              }
-            
-              .conteudo-principal-escrito-subtitulo {
-                font-family: monospace;
-                font-weight: 400;
-                font-size: 22px;
-                color: #ffffff;
-              }
+/*CONTEUDO CONTENDO FOTO*/
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 250px 0; 
+}
 
+.conteudo-principal-imagem {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
 
-              /*REDES SOCIAIS DO COMEÇO DO SITE*/
-              .conteudo-quinto1{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-              }
-              .conteudo-sociais{
-                gap: 10px;
-                position: relative;
-                left: -15%;
-                top: 50%;
-              }
-              .social-git1 {
-                height: 30px;
-              }
-              .social-instagram1 {
-                height: 30px;
-              }
-              .social-linkedin1{
-                height: 30px;
-              }
+.conteudo-principal-escrito {
+  margin-left: 40px; 
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 42px;
+  color: #ffffff;
+  margin-bottom: 20px; 
+}
+
+.conteudo-principal-escrito-subtitulo {
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 22px;
+  color: #ffffff;
+}
 
 
 
-
-              /*SOBRE MIM*/
-              .titulo-sobremim {
-                padding-top: 300px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                font-family: monospace;
-                font-weight: 400;
-                font-size: 27px;
-                color: #ffffff
-              }
-
-              .paragrafo-sobremim {
-                padding-top: 50px;
-                display: flex;
-                flex-basis: 70%;
-                text-align: justify;
-                font-size: 22px;
-                line-height: 30px;
-                font-family: monospace;
-                font-weight: 500;
-                color: white;
-              }
-              .conteudo2 {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: center;
-                gap: 6vw;
-              }
+/*REDES SOCIAIS DO COMEÇO DO SITE*/
+.conteudo-quinto1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.conteudo-sociais{
+  gap: 18px;
+  position: relative;
+  left: -25%;
+  top: 50%;
+}
+.social-git1 {
+  height: 30px;
+}
+.social-instagram1 {
+  height: 30px;
+}
+.social-linkedin1{
+  height: 30px;
+}
 
 
 
 
+/*SOBRE MIM*/
+.titulo-sobremim {
+  padding-top: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 27px;
+  color: #ffffff
+}
 
-              /*LINGUAGENS DE PORGRAMÇÃO ESTUDADAS E AINDA ESTUDANDO*/
-              .terceiro-conteudo {
-                padding-top: 280px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                font-family: monospace;
-                font-weight: 400;
-                font-size: 27px;
-                color: #ffffff;
-
-              }
-              .imagens-terceiro {
-                text-align: center;
-              }
-              .img-teceiro-html {
-                height: 100px;
-              }
-              .img-teceiro-css {
-                height: 100px;
-              }
-              .img-teceiro-javascript {
-                height: 100px;
-              }
-              .img-teceiro-python {
-                height: 100px;
-              }
-
-              .link-youtube{
-                color: red;
-              }
+.paragrafo-sobremim {
+  padding-top: 50px;
+  display: flex;
+  flex-basis: 70%;
+  text-align: justify;
+  font-size: 22px;
+  line-height: 30px;
+  font-family: monospace;
+  font-weight: 500;
+  color: white;
+}
+.conteudo2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6vw;
+}
 
 
 
 
 
-              /*PROJETOS*/
-              .conteudo-projetos{
-                padding-top: 320px;
-              }
-              .titulo-projetos1 {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                font-family: monospace;
-                font-weight: 400;
-                font-size: 27px;
-                text-align: left;
-                color: #ffffff
-              }
-              .paragrafo-projetos {
-                font-family: monospace;
-                font-weight: 500;
-                font-size: 20px;
-                color: white ;
-                padding: 30px;
-                text-align: center;
-              }
-              .box-projetos {
-                display: flex;
-                gap: 1.8rem;
-                justify-content: center;
-                padding: 2rem 2rem 0;
-                flex-wrap: wrap;
-              }
-              .box-especialidade{
-                border-radius: 3px;
-                box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.5);
-                margin: 20px;
+/*LINGUAGENS DE PORGRAMÇÃO ESTUDADAS E AINDA ESTUDANDO*/
+.terceiro-conteudo {
+  padding-top: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 27px;
+  color: #ffffff;
 
-              }
-              .box-especialidade figcaption {
-                text-align: center;
-                padding: 10px;
-                text-transform: uppercase;
-              }
-              .box-link {
-                color: white;
-                font-family: monospace;
-              }
+}
+.imagens-terceiro {
+  text-align: center;
+}
+.img-teceiro-html {
+  height: 100px;
+}
+.img-teceiro-css {
+  height: 100px;
+}
+.img-teceiro-javascript {
+  height: 100px;
+}
+.img-teceiro-python {
+  height: 100px;
+}
 
-              .box-link:hover{
-                background-color: #950fc2;
-                color: white;
-                padding: 10px 15px;
-                border: none;
-                border-radius: 5px;
-                cursor: pointer;
-                margin-top: 10px;
-              }
-
-              .box-projetos img {
-                width: 315px;
-                margin: 10px;
-              }
-              .link-devmedia {
-                color: rgb(0, 249, 62);
-              }
-
-
-
-              /*BOTÃO PARA BAIXAR O CV*/
-              .conteudo-quarto{
-                padding-top: 90px;
-                text-align: center;
-              }
-              .botao-quarto {
-                background-color: #4CAF50;
-                color: white;
-                padding: 10px 15px;
-                border: none;
-                border-radius: 5px;
-                cursor: pointer;
-                margin-top: 10px;
-                font-family: monospace;
-                font-weight: bold;
-              }
-              .botao-quarto:hover {
-                background: rgb(152, 5, 236);
-                color: rgb(255, 255, 255);
-              }
-
-
-              /*FORMULÁRIO*/
-              #formulario-pergunta {
-                display: flex;
-                flex-direction: column;
-                max-width: 400px;
-                margin: 0 auto;
-              }
-
-              label {
-                margin-top: 10px;
-                color: white;
-                font-family: monospace;
-              }
-
-              input,
-              textarea {
-                padding: 5px;
-                margin-top: 5px;
-                margin-bottom: 10px;
-                border: 1px solid #ccc;
-                border-radius: 5px;
-              }
-
-              button[type="submit"] {
-                background-color: #4CAF50;
-                color: white;
-                padding: 10px 15px;
-                border: none;
-                border-radius: 5px;
-                cursor: pointer;
-                margin-top: 10px;
-              }
-
-              button[type="submit"]:hover {
-                background-color: #a000e5;
-              }
-
-              nome:focus,
-              textarea:focus {
-                outline: none;
-                border-color: #4CAF50;
-                box-shadow: 0px 0px 5px #4CAF50;
-              }
+.link-youtube{
+  color: red;
+}
 
 
 
 
-              /*REDES SOCIAS*/
-              .social-git {
-                height: 30px;
-              }
-              .social-instagram {
-                height: 30px;
-              }
-              .social-linkedin{
-                height: 30px;
-              }
+
+/*PROJETOS*/
+.conteudo-projetos{
+  padding-top: 320px;
+}
+.titulo-projetos1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 27px;
+  text-align: left;
+  color: #ffffff
+}
+.paragrafo-projetos {
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 20px;
+  color: white ;
+  padding: 30px;
+  text-align: center;
+}
+.box-projetos {
+  display: flex;
+  gap: 1.8rem;
+  justify-content: center;
+  padding: 2rem 2rem 0;
+  flex-wrap: wrap;
+}
+.box-especialidade{
+  border-radius: 3px;
+  box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.5);
+  margin: 20px;
+
+}
+.box-especialidade figcaption {
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.box-link {
+  color: white;
+  font-family: monospace;
+}
+
+.box-link:hover{
+  background-color: #950fc2;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.box-projetos img {
+  width: 315px;
+  margin: 10px;
+}
+.link-devmedia {
+  color: rgb(0, 249, 62);
+}
 
 
 
-              /*RODAPÉ DO SITE*/
-              .rodape {
-                font-family: monospace;
-                padding: 35px;
-                border-top: 0.4px solid #ffffff;
-                text-align: center;
-                font-size: 24px;
-                background-color: rgba(43, 43, 43, 0.26);
-                color: rgb(255, 255, 255);
-              }
+/*BOTÃO PARA BAIXAR O CV*/
+.conteudo-quarto{
+  padding-top: 90px;
+  text-align: center;
+}
+.botao-quarto {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-family: monospace;
+  font-weight: bold;
+}
+.botao-quarto:hover {
+  background: rgb(152, 5, 236);
+  color: rgb(255, 255, 255);
+}
+
+
+/*FORMULÁRIO*/
+#formulario-pergunta {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  margin-top: 10px;
+  color: white;
+  font-family: monospace;
+}
+
+input,
+textarea {
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #a000e5;
+}
+
+nome:focus,
+textarea:focus {
+  outline: none;
+  border-color: #4CAF50;
+  box-shadow: 0px 0px 5px #4CAF50;
+}
+
+
+
+
+/*REDES SOCIAS*/
+.social-git {
+  height: 30px;
+}
+.social-instagram {
+  height: 30px;
+}
+.social-linkedin{
+  height: 30px;
+}
+
+
+
+/*RODAPÉ DO SITE*/
+.rodape {
+  font-family: monospace;
+  padding: 35px;
+  border-top: 0.4px solid #ffffff;
+  text-align: center;
+  font-size: 24px;
+  background-color: rgba(43, 43, 43, 0.26);
+  color: rgb(255, 255, 255);
+}
+
             }
           }
     }
