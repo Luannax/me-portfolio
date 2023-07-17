@@ -68,7 +68,7 @@ main {
 
 /*CONTEUDO CONTENDO FOTO*/
 .conteudo-principal-imagem {
-  width: 30px;
+  width: 300px;
   height: 300px;
   border-radius: 50%;
 }
